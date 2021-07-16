@@ -7,7 +7,7 @@ def getMultiWindow():
     # メインWindowに紐づく、サブWindowを生成する。
     tk.Toplevel()
 
-    # メインWindowをループさせて、継続的にメインWindow表示させる。
+    # メインWindowをループさせて、継続的にメインWindowを表示させる。
     # mainloopについて : https://kuroro.blog/python/DmJdUb50oAhmBteRa4fi/
     root.mainloop()
 
@@ -15,7 +15,7 @@ def getMultiWindow():
 def getWindow():
     # Windowの生成
     root = tk.Tk()
-    # Windowをループさせて、継続的にWindow表示させる。
+    # Windowをループさせて、継続的にWindowを表示させる。
     # mainloopについて : https://kuroro.blog/python/DmJdUb50oAhmBteRa4fi/
     root.mainloop()
 
